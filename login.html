@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1>Welcome to the Career Guardiance information system Portal</h1>
+<div class="career-guidance">
+    <ol>
+        <li>
+            <h3>Career Interest Assessment:</h3>
+            <p>Users take an assessment or survey to understand their career interests and aptitudes. The system evaluates the user's preferences (such as strengths, skills, and values) and matches them with suitable career options.</p>
+        </li>
+        <li>
+            <h3>Career Path Exploration:</h3>
+            <p>The system provides an extensive list of careers, categorized by fields like business, technology, health, arts, education, etc. For each career path, the system includes details such as:</p>
+            <ul>
+                <li>Job responsibilities</li>
+                <li>Required skills and qualifications</li>
+                <li>Typical work environment</li>
+                <li>Job outlook and growth potential</li>
+                <li>Salary range</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Course and Education Guidance:</h3>
+            <p>Based on the career paths the user is interested in, the system suggests relevant educational programs, such as degree courses, certifications, and training programs. Information includes:</p>
+            <ul>
+                <li>Duration of programs (undergraduate, postgraduate, short courses)</li>
+                <li>Institutions or online platforms offering these courses</li>
+                <li>Required prerequisites and qualifications</li>
+                <li>Potential costs and scholarships</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Job Market Trends:</h3>
+            <p>It provides real-time data on the job market for various careers, such as:</p>
+            <ul>
+                <li>Demand for specific professions</li>
+                <li>Average salaries</li>
+                <li>Geographical locations with the highest employment opportunities</li>
+                <li>Emerging industries or sectors with growth potential</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Decision-Making Tools:</h3>
+            <p>The system may include interactive tools like decision matrices or comparison charts to help users weigh the pros and cons of different career choices. It might also offer advice on job satisfaction, work-life balance, or career progression.</p>
+        </li>
+        <li>
+            <h3>Personalized Career Recommendations:</h3>
+            <p>Based on the user's preferences and career interests, the system can suggest a tailored career path and relevant educational pathways.</p>
+        </li>
+        <li>
+            <h3>Skill Development Resources:</h3>
+            <p>For each career option, the system might recommend resources for skill development, including online courses, workshops, seminars, and books.</p>
+        </li>
+        <li>
+            <h3>Mentorship and Networking Opportunities:</h3>
+            <p>Some systems integrate mentorship programs or networking opportunities where users can connect with professionals in their chosen fields for advice and guidance.</p>
+        </li>
+        <li>
+            <h3>Benefits of a Career Guidance Information System:</h3>
+            <ul>
+                <li><strong>Informed Decision-Making:</strong> Provides accurate and updated information to help individuals make decisions about their career paths.</li>
+                <li><strong>Personalization:</strong> Tailors suggestions based on individual preferences, strengths, and goals.</li>
+                <li><strong>Increased Clarity:</strong> Helps individuals understand the requirements and opportunities in different career paths, reducing confusion and uncertainty.</li>
+                <li><strong>Improved Career Matching:</strong> Ensures users pursue careers that align with their skills and interests, increasing job satisfaction and career success.</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+    <!-- Career Selection -->
+    <div>
+        <label for="career-dropdown">Choose a Career Field:</label>
+        <select id="career-dropdown" onchange="updateSelection(this.value)">
+            <option value="">Select</option>
+            <option value="Science and Technology">Science and Technology</option>
+            <option value="Health and Medicine">Health and Medicine</option>
+            <option value="Business and Finance">Business and Finance</option>
+            <option value="Creative Arts and Media">Creative Arts and Media</option>
+            <option value="Law and Public Service">Law and Public Service</option>
+            <option value="Engineering and Technical Fields">Engineering and Technical Fields</option>
+            <option value="Education and Training">Education and Training</option>
+            <option value="Trade and Skilled Work">Trade and Skilled Work</option>
+            <option value="Sports and Athletics">Sports and Athletics</option>
+            <option value="Environmental and Agricultural Sciences">Environmental and Agricultural Sciences</option>
+        </select>
+    </div>
+
+    <!-- Radio Button and Career Information -->
+    <div id="radio-selection"></div>
+    <div id="career-info"></div>
+
+    
+
+    <script src="login.js"></script>
+</body>
+</html>
+
+

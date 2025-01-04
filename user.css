@@ -1,0 +1,131 @@
+body{
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(rgb(5, 5, 5),rgb(243, 211, 211)), url(pic/crayon.jpg); */
+  background-image:  url(../career/lazoti.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  
+}
+
+.container {
+  background-color: rgb(243, 243, 243);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  transition: border 0.3s ease;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-group input:focus {
+  border: 1px solid #0066cc;
+}
+
+.input-group i {
+  font-size: 18px;
+  color: #0066cc;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #004a99;
+}
+
+.links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.links a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+      width: 90%;
+  }
+}
+  .or{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .icons{
+    text-align: center;
+  }
+  .icons i{
+    color: rgb(241, 161, 241);
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+    margin: 0 15px;
+    transition: 1s;
+  }
+  .icons i:hover{
+    background: darkblue;
+    font-size: 1.6rem;
+    border: 2px solid rgb(136, 68, 201);
+  }
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.4rem;
+    margin-top: 0.9rem;
+    font-weight: bold;
+}
+
+
+
