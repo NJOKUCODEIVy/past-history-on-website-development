@@ -1,74 +1,68 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: sans-serif;
-    width: 100%;
-    height: 100%;
-    /* background: linear-gradient(rgb(5, 5, 5),rgb(243, 211, 211)), url(pic/crayon.jpg); */
-    background-image:  url(../career/lazoti.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    
-}
-.bod{
-    background-color: rgba(19, 22, 26, 0.2);
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.menu1{
-    list-style-type: none;
-    display: flex;
-    column-gap: 70px;
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
 }
-a{
-    text-decoration: none;
-    font-size: 17px;
-    transition: all 0.4ms;
-    color: black;
-}
-a:hover{
-    font-size: 19px;
-    color: rgba(55, 48, 48, 0.576);
-}
-nav{
-    /* width: 100%; */
-    height: 65px;
-    color: white;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 20px;
-
+a:hover {
+  color: #535bf2;
 }
 
-
-.logo {
-    display: inline-block;
-    font-size: 45px;
-    letter-spacing: 3px;
-    color:rgba(101, 101, 72, 0.662)
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-.h-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    max-width: 650px;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    color: rgb(240, 236, 236);
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
 
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }
-.h-text span{
-    letter-spacing: 15px;
-    color: rgb(238, 233, 233);
+button:hover {
+  border-color: #646cff;
 }
-.h-text h1{
-    font-size: 4em;
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
 }
